@@ -123,5 +123,23 @@ header {
 .main-nav li {
     display: inline-block;
     margin-left: 40px;
+    word-spacing: 3px;
+}
+.main-nav li a:link,
+.main-nav li a:visited {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 1s;
+    padding-bottom: 8px;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #e67e22;
+    padding: 8px;
+    transition: border-bottom 0.5s;
 }
 
