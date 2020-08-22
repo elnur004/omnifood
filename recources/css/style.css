@@ -226,6 +226,7 @@ header {
     display: block;
     float: left;
     width: 25%;
+    line-height: 0;
 }
 
 .meal-photo {
@@ -245,5 +246,5 @@ header {
 
 .meal-photo img:hover {
     opacity: 1;
-    transform: scale(1.03);
+    transform: scale(1);
 }
