@@ -315,3 +315,19 @@ header {
 /* ----- CITIES -----*/
 /* --------------------------------------------- */
 
+.ion-icon {
+    font-size: 30%;
+    float: left;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+
+.box img {  
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.city-feature {
+    margin-bottom: 15px;
+}
