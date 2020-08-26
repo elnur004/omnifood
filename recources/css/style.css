@@ -185,6 +185,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 100vh;
 }
 
@@ -355,4 +356,18 @@ header {
 
 .city-feature {
     margin-bottom: 15px;
+}
+
+
+/* --------------------------------------------- */
+/* ----- TESTIMONIALS -----*/
+/* --------------------------------------------- */
+.section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.801)), url(img/back-customers.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width:100%;
+    height: 100vh;
+    color: #fff;
 }
