@@ -127,7 +127,7 @@ h2::after {
 /* --------------------------------------------- */
 /* ----- ICONS ----- */
 /* --------------------------------------------- */
-ion-icon {
+.ion-icon {
     font-size: 350%;
     display: block;
     color: #e67e22;
@@ -345,8 +345,8 @@ header {
 /* ----- CITIES -----*/
 /* --------------------------------------------- */
 
-.ion-icon {
-    font-size: 30%;
+.ion-icon-cities {
+    color: #e67e22;
     float: left;
     margin-top: 3px;
     margin-right: 10px;
@@ -564,4 +564,82 @@ input[type=checkbox] {
 
 *{
     outline: none;
+}
+
+/* --------------------------------------------- */
+/* ----- FOOTER -----*/
+/* --------------------------------------------- */
+
+footer {
+    background-color: #333333;
+    padding: 50px;
+    font-size: 80%;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a:link, 
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: none;
+    color: #888888;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover, 
+.footer-nav li a:active {
+    color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 160%;
+}
+
+.logo-facebook:hover {
+    color: #3b5998;
+}
+.logo-twitter:hover {
+    color: #00acee;
+}
+.logo-whatsapp:hover {
+    color: #25d366;
+}
+.logo-instagram:hover {
+    color: #C13584;
+}
+
+.logo-facebook:hover,
+.logo-twitter:hover,
+.logo-whatsapp:hover,
+.logo-instagram:hover {
+    transition: color 0.2s;
+}
+
+
+footer p {
+    color: #888888;
+    text-align: center;
+    margin-top: 20px;
 }
