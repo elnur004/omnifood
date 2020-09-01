@@ -134,6 +134,14 @@ h2::after {
     margin-bottom: 10px;
 }
 
+.ion-icon-cities {
+    color: #e67e22;
+    float: left;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+
+
 /* --------------------------------------------- */
 /* ----- BUTTONS ----- */
 /* --------------------------------------------- */
@@ -292,10 +300,13 @@ header {
     background-color: #f1efef;
 }
 
+.steps-box {
+    margin-top: 30px;
+}
+
 .steps-box:first-child {
     text-align: right;
     padding-right: 3%;
-    margin-top: 30px;
 }
 
 .steps-box:last-child {
@@ -345,12 +356,6 @@ header {
 /* ----- CITIES -----*/
 /* --------------------------------------------- */
 
-.ion-icon-cities {
-    color: #e67e22;
-    float: left;
-    margin-top: 3px;
-    margin-right: 10px;
-}
 
 .box img {  
     width: 100%;
@@ -540,7 +545,7 @@ cite img {
 /* ----- FORM -----*/
 /* --------------------------------------------- */
 
-.section-form {
+.contact-form {
     width: 60%;
     margin: 0 auto;
 }
