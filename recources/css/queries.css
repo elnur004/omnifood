@@ -99,5 +99,23 @@
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
+    section { padding: 25px 0; }
+
+    .btn-app img {
+        margin: 0 3%;
+        text-align: center;
+    }
+
+    .contact-form { width: 100%; }
+
+    .footer-nav,
+    .social-links { 
+        text-align: center; 
+        width: 100%;
+    }
+
+    .social-links { margin-top: 7px;}
+
+    footer p { margin-top: 15px; }
     
 }
