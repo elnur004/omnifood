@@ -37,6 +37,15 @@
 
     .contact-form { width: 80%; }
 
+    .footer-nav li { 
+        margin-right: 9px;
+        font-size: 110%;
+    }
+
+    footer p {
+        margin-top: 50px;
+    }
+
 }
 
 
@@ -93,6 +102,15 @@
 
 
     .section-form div .row { margin-top: 15px; }
+
+    .footer-nav,
+    .social-links { 
+        text-align: center; 
+        width: 100%;
+    }
+    .social-links { 
+        margin-bottom: 4%;
+    }
     
 }
 
