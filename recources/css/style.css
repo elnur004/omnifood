@@ -230,7 +230,7 @@ header {
 /* ------ MAIN NAVI ------ */
 /* --------------------------------------------- */
 
-.main-nav{
+.main-nav {
     float: right;
     list-style: none;
     margin-top: 55px;
@@ -259,6 +259,24 @@ header {
     padding: 8px 0;
     transition: border-bottom 0.5s;
 }
+
+
+/* --------------------------------------------- */
+/* ------ MOBILE NAVI ------ */
+/* --------------------------------------------- */
+.mobile-nav-icon {
+    float: right;
+    margin-top: 20px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+}
+
+.mobile-nav-icon ion-icon {
+    font-size: 200%;
+    color: #fff;
+}
+
 
 /* --------------------------------------------- */
 /* ------ STICKY NAVI ------ */
@@ -289,7 +307,6 @@ header {
 
 .sticky .logo { display: none; }
 .sticky .logo-black { display: block; }
-
 
 
 /* --------------------------------------------- */
@@ -344,6 +361,7 @@ header {
 /* --------------------------------------------- */
 .section-steps {
     background-color: #f1efef;
+    margin-bottom: 10px;
 }
 
 .steps-box {
@@ -710,7 +728,7 @@ footer p {
 .js--wp-4 { animation-duration: 1s; }
 
 .js--wp-1 .animate__fadeIn, 
-.js--wp-2 .animate__fadeInUp, 
+.js--wp-2 .animate__fadeInLeftBig, 
 .js--wp-3 .animate__fadeIn {
     opacity: 1;
 }

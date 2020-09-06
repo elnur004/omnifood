@@ -65,7 +65,7 @@ $(document).ready(function() {
     })
 
     $('.js--wp-2').waypoint(function (direction) {
-        $('.js--wp-2').addClass('animate__animated animate__fadeInUp');
+        $('.js--wp-2').addClass('animate__animated animate__fadeInLeftBig');
     }, {
         offset: '50%'
     })
