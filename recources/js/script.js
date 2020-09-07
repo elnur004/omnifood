@@ -82,5 +82,20 @@ $(document).ready(function() {
         offset: '50%'
     })
 
+
+    /* Mobile navigation */
+    $('.js--nav-icon').click(function() {
+        var nav = $('.js--main-nav');
+        var icon = document.getElementById('menu');
+
+        if (icon.name == 'reorder-four') {
+            icon.name = 'close';         /* 'X' icon inside of navigation bar --> <ion-icon name="close"></ion-icon> */
+        } 
+        else {
+            icon.name = 'reorder-four';
+        }
+
+        nav.slideToggle(200);
+    })
 });
 
