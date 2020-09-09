@@ -42,9 +42,7 @@
         font-size: 110%;
     }
 
-    footer p {
-        margin-top: 50px;
-    }
+    footer p { margin-top: 50px; }
 
 }
 
@@ -90,9 +88,6 @@
     .sticky .mobile-nav-icon {  margin-top: 10px; }
     .sticky .mobile-nav-icon ion-icon { color: #555555; }
 
-    
-    
-
     h1 { font-size: 180%; }
     h2 { font-size: 150%; }
 
@@ -101,13 +96,15 @@
         margin-left: 0%;
     }
 
-    .steps-box { margin-top: 25px; }
-    .steps-box:last-child { 
-        margin-top: 10%; 
-        padding-left: 0%;
-    }
+    .section-steps h2 { margin-bottom: 2%; }
 
-    .steps-box:first-child { text-align: center; }
+    .steps-box { margin-top: 25px; }
+    .steps-box:last-child { margin-top: 5%; }
+
+    .steps-box:first-child { 
+        text-align: center; 
+        padding-right: 0;
+    }
     .app-screen { width: 40%; }
 
     .works-step div {
@@ -130,7 +127,6 @@
     .section-testimonials { height: 100%; }
     .section-testimonials h2 { margin-bottom: 15px; }
 
-
     .section-form div .row { margin-top: 15px; }
 
     .footer-nav,
@@ -138,9 +134,7 @@
         text-align: center; 
         width: 100%;
     }
-    .social-links { 
-        margin-bottom: 4%;
-    }
+    .social-links { margin-bottom: 4%; }
 }   
 
 

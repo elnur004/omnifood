@@ -41,13 +41,9 @@ body {
     margin: 0 auto;
 }
 
-section {
-    padding: 80px 0;
-}
+section { padding: 80px 0; }
 
-.box {
-    padding: 1%;
-}
+.box { padding: 1%; }
 
 
 /* --------------------------------------------- */
@@ -176,14 +172,10 @@ input[type=submit] {
 .btn:hover,
 .btn:active,
 input[type=submit]:hover,
-input[type=submit]:active {
-    background-color: #cf6d17;
-}
+input[type=submit]:active { background-color: #cf6d17; }
 
 .btn-full:hover,
-.btn-full:active {
-    border: 1px solid #cf6d17;
-}
+.btn-full:active { border: 1px solid #cf6d17; }
 
 .btn-ghost:hover,
 .btn-ghost:active {
@@ -196,7 +188,7 @@ input[type=submit]:active {
 /* ------ HEADER ------ */
 /* --------------------------------------------- */
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero-min.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -300,9 +292,7 @@ header {
 }
 
 .sticky .main-nav li a:hover,
-.sticky .main-nav li a:active {
-    padding: 17px 0;
-}
+.sticky .main-nav li a:active { padding: 17px 0; }
 
 
 .sticky .logo { display: none; }
@@ -312,16 +302,12 @@ header {
 /* --------------------------------------------- */
 /* ------ FEATURES ------ */
 /* --------------------------------------------- */
-.section-features .long-copy {
-    margin-bottom: 30px;
-}
+.section-features .long-copy { margin-bottom: 30px; }
 
 /* --------------------------------------------- */
 /* ------ MEALS ------ */
 /* --------------------------------------------- */
-.section-meals {
-    padding: 0;
-}
+.section-meals { padding: 0; }
 
 .meals-showcase {
     list-style: none;
@@ -359,14 +345,9 @@ header {
 /* --------------------------------------------- */
 /* -----HOW IT WORKS -----*/
 /* --------------------------------------------- */
-.section-steps {
-    background-color: #f1efef;
-    margin-bottom: 10px;
-}
+.section-steps { background-color: #f1efef; }
 
-.steps-box {
-    margin-top: 30px;
-}
+.steps-box { margin-top: 30px; }
 
 .steps-box:first-child {
     text-align: right;
@@ -378,17 +359,11 @@ header {
     margin-top: 70px;
 }
 
-.app-screen {
-    width: 40%;
-}
+.app-screen { width: 40%; }
 
-.works-step {
-    margin-bottom: 50px;
-}
+.works-step { margin-bottom: 50px; }
 
-.works-step:last-of-type {
-    margin-bottom: 80px;
-}
+.works-step:last-of-type { margin-bottom: 80px; }
 
 .works-step div {
     color: #e67e22;
@@ -411,9 +386,7 @@ header {
 }
 
 .btn-app:link,
-.btn-app:visited {
-    border: none;
-}
+.btn-app:visited { border: none; }
 
 
 /* --------------------------------------------- */
@@ -427,16 +400,14 @@ header {
     margin-bottom: 15px;
 }
 
-.city-feature {
-    margin-bottom: 15px;
-}
+.city-feature { margin-bottom: 15px; }
 
 
 /* --------------------------------------------- */
 /* ----- TESTIMONIALS -----*/
 /* --------------------------------------------- */
 .section-testimonials {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.801)), url(img/back-customers.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.801)), url(img/back-customers-min.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -480,9 +451,7 @@ cite img {
 /* ----- SIGN UP -----*/
 /* --------------------------------------------- */
 
- .section-plans {
-    background-color: #f4f4f4;
-}
+ .section-plans { background-color: #f4f4f4; }
 
 
 .plan-box {
@@ -521,9 +490,7 @@ cite img {
     font-weight: 300;
 }
 
-.plan-price-meal {
-    font-size: 80%;
-}
+.plan-price-meal { font-size: 80%; }
 
 .plan-box ul {
     list-style: none;
@@ -531,9 +498,7 @@ cite img {
     margin-bottom: 15px;
 }
 
-.plan-box ul li {
-    padding: 5px 0;
-}
+.plan-box ul li { padding: 5px 0; }
 
 .checkmark, .close {
     color: #e67e22;
@@ -624,17 +589,11 @@ textarea {
     border: 1px solid #cccccc
 }
 
-textarea {
-    height: 100px;
-}
+textarea { height: 100px; }
 
-input[type=checkbox] {
-    margin: 10px 5px 10px 0;
-}
+input[type=checkbox] { margin: 10px 5px 10px 0; }
 
-*{
-    outline: none;
-}
+* { outline: none; }
 
 /* --------------------------------------------- */
 /* ----- FOOTER -----*/
@@ -663,9 +622,7 @@ footer {
 }
 
 .footer-nav li:last-child,
-.social-links li:last-child {
-    margin-right: 0;
-}
+.social-links li:last-child { margin-right: 0; }
 
 .footer-nav li a:link, 
 .footer-nav li a:visited,
@@ -678,34 +635,20 @@ footer {
 }
 
 .footer-nav li a:hover, 
-.footer-nav li a:active {
-    color: #ddd;
-}
+.footer-nav li a:active { color: #ddd; }
 
 .social-links li a:link,
-.social-links li a:visited {
-    font-size: 160%;
-}
+.social-links li a:visited { font-size: 160%; }
 
-.logo-facebook:hover {
-    color: #3b5998;
-}
-.logo-twitter:hover {
-    color: #00acee;
-}
-.logo-whatsapp:hover {
-    color: #25d366;
-}
-.logo-instagram:hover {
-    color: #C13584;
-}
+.logo-facebook:hover { color: #3b5998; }
+.logo-twitter:hover { color: #00acee; }
+.logo-whatsapp:hover { color: #25d366; }
+.logo-instagram:hover { color: #C13584; }
 
 .logo-facebook:hover,
 .logo-twitter:hover,
 .logo-whatsapp:hover,
-.logo-instagram:hover {
-    transition: color 0.2s;
-}
+.logo-instagram:hover { transition: color 0.2s; }
 
 
 footer p {
@@ -729,6 +672,4 @@ footer p {
 
 .js--wp-1 .animate__fadeIn, 
 .js--wp-2 .animate__fadeInLeftBig, 
-.js--wp-3 .animate__fadeIn {
-    opacity: 1;
-}
+.js--wp-3 .animate__fadeIn { opacity: 1; }
